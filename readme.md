@@ -16,4 +16,3 @@ The site has been built using **HTML, CSS, and JavaScript**, and is hosted using
 - **Icons:** [Ionicons](https://ionic.io/ionicons)
 - **Hosting:** GitHub Pages
 
-## 📂 Project Structure
