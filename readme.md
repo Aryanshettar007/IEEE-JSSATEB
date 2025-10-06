@@ -15,4 +15,4 @@ The site has been built using **HTML, CSS, and JavaScript**, and is hosted using
 - **Frontend:** HTML5, CSS3, JavaScript (Vanilla JS)
 - **Icons:** [Ionicons](https://ionic.io/ionicons)
 - **Hosting:** Netlify
-
+https://ieee-jssateb.netlify.app/
