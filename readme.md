@@ -14,5 +14,5 @@ The site has been built using **HTML, CSS, and JavaScript**, and is hosted using
 ## 🛠️ Tech Stack
 - **Frontend:** HTML5, CSS3, JavaScript (Vanilla JS)
 - **Icons:** [Ionicons](https://ionic.io/ionicons)
-- **Hosting:** GitHub Pages
+- **Hosting:** Netlify
 
