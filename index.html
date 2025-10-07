@@ -1,86 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>IEEE: Website</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="html" href='googledd32110f400d5bea.html'>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-<header class="home-header">
-    <video autoplay muted loop playsinline class="background-video">
-    <source src="Assets/bv.mp4" type="video/mp4">
+  <!-- Background video for entire page -->
+  <video autoplay muted loop playsinline class="background-video">
+    <source src="Assets/bv.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
-  <nav class="navbar">
-    <div class="logo">
-  <img src="Assets/logo.jpg" alt="Logo" />
-      <h3>IEEE JSSATEB</h3>
-    </div>
-    <ul class="nav-right">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li class="dropdown">
-        <a href="members.html">Members</a>
-        <ul class="dropdown-menu"></ul>
-      </li>
-      <li class="dropdown">
-        <a href="event.html">Events</a>
-      </li>
-      <li><a href="googledd32110f400d5bea.html"></a></li>
-    </ul>
-  </nav>
-</header>
+  <div class="overlay"></div>
 
-<!-- Hero Section -->
-<section class="hero-section">
-  <div class="text-box">
-    <h1>"IEEE: Where Innovation Meets Inspiration."</h1>
-    <p>IEEE is the world’s largest technical professional organization dedicated to advancing technology for the benefit of humanity.<br>
-    A global community of innovators, engineers, and visionaries leading the future of technology.</p>
-  </div>
-</section>
-
-<script src="script.js"></script>
-
-<!-- Footer Section -->
-<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
-<footer class="footer">
-  <div class="footer-container">
-    <div class="footer-section">
-      <h2>INFORMATION</h2>
-      <ul>
-        <li><a href="index.html"><ion-icon name="home-outline"></ion-icon> Home</a></li>
-        <li><a href="about.html"><ion-icon name="help-circle-outline"></ion-icon> About Us</a></li>
-        <li><a href="members.html"><ion-icon name="people-outline"></ion-icon> Team</a></li>
-        <li><a href="#"><ion-icon name="trophy-outline"></ion-icon> Achievements</a></li>
-        <li><a href="#"><ion-icon name="book-outline"></ion-icon> Publications</a></li>
+  <!-- Header -->
+  <header class="home-header">
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="logo">
+        <img src="Assets/logo.jpg" alt="IEEE logo" />
+        <h3>IEEE JSSATEB</h3>
+      </div>
+      <ul class="nav-right">
+        <li><a href="#top">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="members.html">Members</a></li>
+        <li><a href="event.html">Events</a></li>
       </ul>
-    </div>
+    </nav>
 
-    <div class="footer-section">
-      <h2>CONTACT US</h2>
-      <p><strong>JSSATE Bengaluru</strong></p>
-      <p>Uttarahalli-Kengeri Main Road,<br>Bengaluru - 560060, Karnataka</p>
-      <p>Email: <a href="mailto:ieee@jssateb.ac.in">ieee@jssateb.ac.in</a></p>
-      <div class="social-icons">
-        <a href="https://www.instagram.com/ieee.jssateb/profilecard/?igsh=MXY0OHdld2Y2bDNmYw==" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
-        <a href="https://www.linkedin.com/company/ieeejssateb" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+    <!-- Hero Section -->
+    <section class="hero-section" id="top">
+      <div class="text-box">
+        <h1>"IEEE: Where Innovation Meets Inspiration."</h1>
+        <p>
+          IEEE is the world’s largest technical professional organization dedicated 
+          to advancing technology for the benefit of humanity.<br>
+         
+        </p>
+        <a href="#what-ieee" class="hero-btn">Learn More</a>
+      </div>
+    </section>
+  </header>
+
+  <!-- Info section (What is IEEE / Why join) -->
+  <section class="info-wrapper">
+    <div class="info-grid">
+      <article class="info-box" id="what-ieee">
+        <h2>What is IEEE?</h2>
+        <ul>
+          <li>IEEE is the world’s largest technical professional organization dedicated to fostering technological innovation and excellence for the benefit of humanity.</li>
+          <li>Branches give students a peer community and connections to faculty and industry, enabling accomplishments beyond the classroom through events and projects.</li>
+          <li>Branches host technical meetings, interest groups, competitions, and outreach programs in coordination with local sections and societies.</li>
+        </ul>
+      </article>
+
+      <article class="info-box" id="why-join">
+        <h2>Why Join?</h2>
+        <ul>
+          <li>Get exclusive access to opportunities, funding, and a global professional network that supports your growth from student life to early career.</li>
+          <li>IEEE offers free hosting and tools that help student branches run impactful programs efficiently.</li>
+          <li>Network locally and globally with peers, faculty, and industry professionals.</li>
+          <li>Gain funding for events and develop leadership skills by organizing initiatives within IEEE.</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section">
+        <h2>INFORMATION</h2>
+        <ul>
+          <li><a href="#top"><ion-icon name="home-outline"></ion-icon> Home</a></li>
+          <li><a href="about.html"><ion-icon name="help-circle-outline"></ion-icon> About</a></li>
+          <li><a href="members.html"><ion-icon name="people-outline"></ion-icon> Team</a></li>
+          <li><a href="event.html"><ion-icon name="trophy-outline"></ion-icon> Events</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h2>CONTACT US</h2>
+        <p><strong>JSSATE Bengaluru</strong></p>
+        <p>Uttarahalli-Kengeri Main Road,<br />Bengaluru - 560060, Karnataka</p>
+        <p >Email: <a href="mailto:ieee@jssateb.ac.in">ieee@jssateb.ac.in</a></p>
+
+        <div class="social-icons">
+          <a href="https://www.instagram.com/ieee.jssateb" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+          <a href="https://www.linkedin.com/company/ieeejssateb" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+        </div>
       </div>
     </div>
-  </div>
 
-  <div class="footer-bottom">
-    <div class="footer-branch">
-      <h3>IEEE Student Branch</h3>
-      <p>JSSATE Bengaluru</p>
+    <div class="footer-bottom">
+      <div class="footer-branch">
+        <h3>IEEE Student Branch</h3>
+        <p>JSSATE Bengaluru</p>
+      </div>
+      <p>Copyright © <span id="year"></span> All rights reserved | Made with ❤️ by IEEE JSSATEB</p>
     </div>
-    <p>Copyright © <span id="year"></span> All rights reserved | Made with ❤️ by IEEE JSSATEB</p>
-  </div>
-</footer>
+  </footer>
+
+  <!-- Ionicons + small script -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+  <script>
+    // Set current year
+    const yearEl = document.getElementById('year');
+    if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+    // Smooth scrolling
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+    
+  </script>
+  <script>
+  // Typing effect
+  const text = '"IEEE: Where Innovation Meets Inspiration."';
+  const heading = document.querySelector('.text-box h1');
+  let i = 0;
+
+  function typeWriter() {
+    if (i < text.length) {
+      heading.textContent += text.charAt(i);
+      i++;
+      setTimeout(typeWriter, 70); // typing speed
+    }
+  }
+
+  // Clear initial text and start typing after page load
+  window.addEventListener('load', () => {
+    heading.textContent = "";
+    setTimeout(typeWriter, 500);
+  });
+</script>
+
 </body>
 </html>
