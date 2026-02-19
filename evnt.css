@@ -129,16 +129,21 @@ body {
 }
 
 .logo-container, .logo-container1 {
-    width: 140px;   /* reduced logo size */
-    height: 140px;  /* reduced logo size */
+    width: 160px;   /* reduced logo size */
+    height: 160px;  /* reduced logo size */
     overflow: hidden;
-    border-radius: 50%;
+    border-radius: 20%;
     flex-shrink: 0;
+    background: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .jss-logo {
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
     object-fit: contain;
 }
 
